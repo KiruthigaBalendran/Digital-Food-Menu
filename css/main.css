@@ -87,7 +87,7 @@ section::before,section::after {
     left:0;
     right:0;
     bottom:0;
-    background:rgba(44,33,5,0.2);
+    /*background:rgba(44,33,5,0.2);*/
     z-index:0;
 }
 #header .center {
@@ -142,35 +142,6 @@ section::before,section::after {
     margin-left: 270px;
 }
 
-.hvr-underline-from-center {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px transparent;
-  position: relative;
-  overflow: hidden;
-}
-.hvr-underline-from-center:before {
-  content: "";
-  position: absolute;
-  z-index: 999;
-  left: 50%;
-  right: 50%;
-  bottom: 0;
-  background:#9cd5c4;
-  height: 4px;
-  -webkit-transition-property: left, right;
-  transition-property: left, right;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
-  left: 0;
-  right: 0;
-}
 
 /* ==========================================================================
     About
