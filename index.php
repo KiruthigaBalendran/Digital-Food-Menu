@@ -47,7 +47,7 @@
                 <li><div class="hidden-xs" id="logo"><a href="#header">
                 <img src="img/16.png" alt="">
             </a></div></li>
-                <li><a href="#reservation">Menu</a></li>
+                <li><a href="pages/menu.html">Menu</a></li>
                 <li><a class="scroll" href="index.html/#special-offer">Special Offers</a></li>
                 <li><a href="#chefs">Our Chefs</a></li>                
                 <li><a href="#facts">Reviews</a></li>
@@ -129,7 +129,7 @@
 
                     </p> -->
                     <div class="find-about">
-                        <a href="#" class="btn btn-danger btn-lg discoverAll">Discover all</a>
+                        <a href="#" class="btn-lg discoverAll">Discover all</a>
                     </div>
                 </div>
                 <div class="clearfix"></div>
@@ -157,7 +157,7 @@
                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             
-                            <a class="btn btn-danger btn-lg" href="#">Order now</a>
+                            <a class="btn-lg discoverAll" href="#">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
@@ -177,7 +177,7 @@
                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             
-                            <a class="btn btn-danger btn-lg" href="#">Order now</a>
+                            <a class="discoverAll btn-lg" href="#">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
@@ -198,7 +198,7 @@
                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             
-                            <a class="btn btn-danger btn-lg" href="#">Order now</a>
+                            <a class="discoverAll btn-lg" href="#">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
@@ -218,7 +218,7 @@
                             
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             
-                            <a class="btn btn-danger btn-lg" href="#">Order now</a>
+                            <a class="discoverAll btn-lg" href="#">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
@@ -277,7 +277,7 @@
 
 
     <footer id="footer" class="dark-wrapper">
-        <section class="ss-style-top"></section>
+        <!-- <section class="ss-style-top"></section> -->
         <div class="container inner">
             <div class="row">
                 <div class="w3_agileits-subscribe text-center">
