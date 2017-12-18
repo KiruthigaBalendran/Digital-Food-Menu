@@ -130,16 +130,14 @@ section::before,section::after {
     position:relative;
     top:-5px;
 }
-.navbar-nav>li:nth-child(3) {
+/*.navbar-nav>li:nth-child(3) {
     margin-right: 110px;
-}
+}*/
 .navbar-nav a{
     font-size: 16px;
 }
 .shoppingCart{
     max-width: 35px;
-    margin-right: -300px;
-    margin-left: 270px;
 }
 
 
@@ -619,23 +617,19 @@ p.sub-p {
         float:none !important;
         width:100%;
         text-align:center;
-        margin-left:9px;
+        margin-left:0px;
     }
     .navbar-nav>li {
         display:inline-block;
-        float:none;
+        float:left;
     }
     #logo {
-        position:absolute;
         display:block !important;
-        width:110px;
-        left:50%;
-        margin-left:-29px;
+        width:180px;
         background:black;
-        -webkit-border-radius:0 0 100% 100%;
-        -moz-border-radius:0 0 100% 100%;
-        border-radius:0 0 100% 100%;
-        padding: 12px;
+        -webkit-border-radius:0 0 0 0;
+        -moz-border-radius:0 0 0 0;
+        border-radius:0 0 0 0;
     }
 }
 
