@@ -41,20 +41,19 @@
                 <a class="navbar-brand" href="#"><h2>Foodicious</h2></a>
             </div><!-- navbar-header -->
         <div id="navbar" class="navbar-collapse collapse">
-            <div class="hidden-xs" id="logo"><a href="#header">
-                <img src="img/16.png" alt="">
-            </a></div>
+            
 
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-header">
+                <li><div class="hidden-xs" id="logo"><a href="#header">
+                <img src="img/16.png" alt="">
+            </a></div></li>
                 <li><a href="#reservation">Menu</a></li>
                 <li><a class="scroll" href="index.html/#special-offer">Special Offers</a></li>
-                <li><a href="#chefs">Our Chefs</a></li>
-
-                
+                <li><a href="#chefs">Our Chefs</a></li>                
                 <li><a href="#facts">Reviews</a></li>
                 <li><a href="#food-menu">How To</a></li>
                 <li><a href="#special-offser">Contact</a></li>
-                <a href="#"><img class="shoppingCart" alt="User" src="img/cart1.png"></a>
+                <li><a href="#"><img class="shoppingCart" alt="User" src="img/cart1.png"></a></li>
                 
                 <!--fix for scroll spy active menu element-->
                 <li style="display:none;"><a href="#header"></a></li>
