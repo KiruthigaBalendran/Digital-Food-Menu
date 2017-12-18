@@ -29,7 +29,7 @@ img {
 section {
     position:relative;
     padding:0;
-    background:#F0A830;
+    /*background:#F0A830;*/
     color:#FFF;
     text-align:center;
 }
@@ -404,6 +404,7 @@ p.description{
 }
 .pricing {
     border-top:1px solid #f1f1f1;
+    margin-top: 90px;
 }
 .pricing .pricing-item {
     position:relative;
