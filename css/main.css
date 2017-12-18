@@ -191,16 +191,16 @@ img.img1 {
 
 .banner-btm-g2 {
     padding: 3em 2.5em;
-    background: #141213;
+    /*background: #141213;*/
 }
 h3.title-main {
-    color: #fff;
+    /*color: #fff;*/
     font-size: 40px;
     text-transform: capitalize;
 }
 h4.sub-title {
     font-size: 35px;
-    color: #b7b7b7;
+    color: #f58a01;
     margin: 16px 0 10px;
 }
 
