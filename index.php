@@ -42,7 +42,7 @@
             </div><!-- navbar-header -->
         <div id="navbar" class="navbar-collapse collapse">
             <div class="hidden-xs" id="logo"><a href="#header">
-                <img src="img/logo.png" alt="">
+                <img src="img/16.png" alt="">
             </a></div>
 
             <ul class="nav navbar-nav navbar-right">
