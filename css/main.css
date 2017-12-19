@@ -222,8 +222,8 @@ p.description{
     03. Navigation 
 ========================================================================== */
 #menu {
-    /*background:rgba(33,45,57,0.8);*/
-    background:rgba(8, 118, 228, 0.8);
+    background:rgba(33,45,57,0.8);
+    /*background:rgba(8, 118, 228, 0.8);*/
     margin-bottom:0;
 }
 .navbar-brand h2 {
