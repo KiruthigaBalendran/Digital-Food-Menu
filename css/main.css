@@ -29,7 +29,7 @@ img {
 section {
     position:relative;
     padding:0;
-    background:#F0A830;
+    /*background:#F0A830;*/
     color:#FFF;
     text-align:center;
 }
@@ -134,7 +134,7 @@ section::before,section::after {
     margin-right: 110px;
 }*/
 .navbar-nav a{
-    font-size: 16px;
+    font-size: 20px;
 }
 .shoppingCart{
     max-width: 35px;
@@ -212,6 +212,8 @@ p.description{
 
 .discoverAll{
     font-weight: bold;
+    background: #ff5722;
+    color: white;
 }
 
 @media (min-width:768px) {
@@ -244,7 +246,7 @@ p.description{
     font-weight:bold;
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
-    background:#ed0121;
+    background:#ff5722;
     color:white;
     text-shadow:none;
 }
@@ -402,6 +404,7 @@ p.description{
 }
 .pricing {
     border-top:1px solid #f1f1f1;
+    margin-top: 90px;
 }
 .pricing .pricing-item {
     position:relative;
@@ -505,7 +508,7 @@ p.description{
     10. Footer 
 ========================================================================== */
 .dark-wrapper {
-    background:#ed0121;
+    background:#ff5722;
     color:white;
     font-size:20px;
     font-weight:bold;
@@ -547,7 +550,7 @@ p.description{
     width: 71%;
     margin: 15px auto 0;
     padding: 10px;
-    background: #a51c21;
+    /*background: #a51c21;*/
 }
 .w3_agileits-subscribe h5 {
     font-size: 25px;
@@ -583,7 +586,7 @@ p.sub-p {
 .w3_agileits-subscribe input[type="submit"] {
     width: 20%;
     float: left;
-    color: #a51c21;
+    color: #fff;
     font-size: 14px;
     font-weight: 600;
     text-transform: capitalize;
@@ -595,7 +598,7 @@ p.sub-p {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -webkit-appearance: none;
-    background: #9cd5c4;
+    background: #ff5722;
 }
 /* ==========================================================================
     11. Responsive styles 
