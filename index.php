@@ -44,15 +44,15 @@
             
 
             <ul class="nav navbar-nav navbar-header">
-                <li><div class="hidden-xs" id="logo"><a href="#header">
+                <li><div class="hidden-xs" id="logo"><a href="index.php">
                 <img src="img/16.png" alt="">
             </a></div></li>
                 <li><a href="pages/menu.php">Menu</a></li>
-                <li><a class="scroll" href="index.html/#special-offer">Special Offers</a></li>
+                <li><a href="#special-offer">Special Offers</a></li>
                 <li><a href="#chefs">Our Chefs</a></li>                
-                <li><a href="#facts">Reviews</a></li>
-                <li><a href="#food-menu">How To</a></li>
-                <li><a href="#special-offser">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">How To</a></li>
+                <li><a href="#">Contact</a></li>
                 <li><a href="#"><img class="shoppingCart" alt="User" src="img/cart1.png"></a></li>
                 
                 <!--fix for scroll spy active menu element-->
