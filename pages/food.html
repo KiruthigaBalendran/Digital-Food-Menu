@@ -42,7 +42,7 @@
     <!--[if lt IE 7]>
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <?php ?>
+    
     <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header visible-xs">
@@ -79,27 +79,6 @@
 
     <section id="pricing" class="pricing" style="background: transparent;" >
 
-            <!-- <div id="w">
-                <div class="pricing-filter">
-                    <div class="pricing-filter-wrapper">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 col-md-offset-1">
-                                    <div class="section-header">
-                                        <h1 class="pricing-title">Tasty Menu</h1>
-                                        <ul id="filter-list" class="clearfix">
-                                            <li class="filter" data-filter="all">All</li>
-                                            <li class="filter" data-filter=".breakfast">Breakfast</li>
-                                            <!-- <li class="filter" data-filter=".special">Special</li> -->
-                                            <!--<li class="filter" data-filter=".desert">Desert</li>
-                                            <li class="filter" data-filter=".dinner">Dinner</li>
-                                        </ul><!-- @end #filter-list -->
-                                    <!--</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
 
         <div class="container" style="padding-top: 45px;max-width:100%;margin-top: 40px">
             <div class="row" style="padding-top: 25px;width: auto;background: transparent" >
@@ -109,7 +88,7 @@
                         <button class="btn btn-primary btn-lg" >Add to Cart</button>
                     </div> 
                     <div class="col-xs-11" style="padding-top: 20px">
-                        <button class="btn btn-warning btn-lg" >Buy Now</button>
+                        <button class="btn-lg discoverAll" >Buy Now</button>
                     </div>
                     <div class="col-xs-2" style="padding-top: 40px;background: transparent;width: auto;resize: all;">
                         <h3 style="color: black"><b>Ingredients :</b></h3><br>
@@ -133,7 +112,7 @@
                     <table class="table table-responsive borderless" style="color: black;background: transparent;font-size: large;">
                         <tbody style="width: auto;">
                             <tr style="border: none;width: auto;">
-                                <td style="border: none;float: left;width: auto;"><h4><B>Rs 1700</B></h4></td>
+                                <td style="border: none;float: left;width: auto;"><h4><B><?php $_GET['price']; ?></B></h4></td>
                                 <td style="border: none;float: right;width: auto;"><h4>Discount 10%</h4></td>
                             </tr>
                             <tr style="border: none;">
