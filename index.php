@@ -129,7 +129,9 @@
 
                     </p> -->
                     <div class="find-about">
+
                         <a href="#" class="btn-lg discoverAll">Discover all</a>
+
                     </div>
                 </div>
                 <div class="clearfix"></div>
