@@ -106,7 +106,7 @@
                             <ul id="menu-pricing" class="menu-price">
                                 <li class="item dinner">
 
-                                    <a href="#">
+                                    <a href="food.php?price=Rs.540">
                                         <img src="../img/menu/buriyani.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc text-center">
                                             <span>
