@@ -44,15 +44,15 @@
             
 
             <ul class="nav navbar-nav navbar-header">
-                <li><div class="hidden-xs" id="logo"><a href="#header">
+                <li><div class="hidden-xs" id="logo"><a href="index.php">
                 <img src="img/16.png" alt="">
             </a></div></li>
-                <li><a href="pages/menu.html">Menu</a></li>
-                <li><a class="scroll" href="index.html/#special-offer">Special Offers</a></li>
+                <li><a href="pages/menu.php">Menu</a></li>
+                <li><a href="#special-offer">Special Offers</a></li>
                 <li><a href="#chefs">Our Chefs</a></li>                
-                <li><a href="#facts">Reviews</a></li>
-                <li><a href="#food-menu">How To</a></li>
-                <li><a href="#special-offser">Contact</a></li>
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">How To</a></li>
+                <li><a href="#">Contact</a></li>
                 <li><a href="#"><img class="shoppingCart" alt="User" src="img/cart1.png"></a></li>
                 
                 <!--fix for scroll spy active menu element-->
@@ -144,26 +144,26 @@
         <div class="container inner">
 
             <h2 class="section-title text-center">Special Offers</h2>
-            <p class="lead main text-center">There is no sincerer love than the love of food!</p>
+            <p class="lead main text-center">There is no sincere love than the love of food!</p>
             
             <div class="row">
                 <div class="col-md-6 col-sm-6">
                     
                     <div class="pricing-item">
                         
-                        <a href="#"><img class="img-responsive img-thumbnail" src="img/dish/dish3.jpg" alt=""></a>
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/dish/friedRice.jpg" alt=""></a>
                         
                         <div class="pricing-item-details">
                             
                             <h3><a href="#">Chicken Fried Rice</a></h3>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>A dish of cooked basmati rice that has been stir fried and mixed with hot fried chicken,eggs,vegetables and topped with green leaves</p>
                             
                             <a class="btn-lg discoverAll" href="#">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
-                        <span class="hot-tag br-red">$26</span>
+                        <span class="hot-tag br-red">Rs.150</span>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -177,13 +177,13 @@
                             
                             <h3><a href="#">Hot Fried Chicken</a></h3>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>A dish of chicken pieces battered and pan-fried with crisp coating of breading crumbs</p>
                             
                             <a class="discoverAll btn-lg" href="#">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
-                        <span class="hot-tag br-lblue">$37</span>
+                        <span class="hot-tag br-red">Rs.100</span>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -196,15 +196,15 @@
                         
                         <div class="pricing-item-details">
                             
-                            <h3><a href="#">Thi Chicken Momo</a></h3>
+                            <h3><a href="#">Thai Chicken Momo</a></h3>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>A traditional Nepali dish with devilled chicken blended in a special sauce</p>
                             
                             <a class="discoverAll btn-lg" href="#">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
-                        <span class="hot-tag br-green">$54</span>
+                        <span class="hot-tag br-red">Rs.500</span>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -212,19 +212,19 @@
                     
                     <div class="pricing-item">
                         
-                        <a href="#"><img class="img-responsive img-thumbnail" src="img/dish/dish1.jpg" alt=""></a>
+                        <a href="#"><img class="img-responsive img-thumbnail" src="img/dish/pizza.jpeg" alt=""></a>
                         
                         <div class="pricing-item-details">
                             
-                            <h3><a href="#">Cocktail Sushi</a></h3>
+                            <h3><a href="#">Cheese and Sausage Pizza</a></h3>
                             
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            <p>A baked flatbread topped with cheese and sausage and garnished with vegetables </p>
                             
                             <a class="discoverAll btn-lg" href="#">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
-                        <span class="hot-tag br-red">$27</span>
+                        <span class="hot-tag br-red">Rs.450</span>
                         <div class="clearfix"></div>
                     </div>
                 </div>
@@ -241,7 +241,7 @@
         <div class="container inner">
 
             <h2 class="section-title text-center">Our Chefs</h2>
-            <p class="lead main text-center">There is no sincerer love than the love of food!</p>
+            <p class="lead main text-center">There is no sincere love than the love of food!</p>
             
             <div class="row text-center chefs">
                 <div class="col-sm-4">
@@ -249,8 +249,8 @@
                         <div class="icon-wrapper">
                             <img src="img/chefs/1.jpg">
                         </div>
-                        <h2>Saransh Goila</h2>
-                        <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus dolor auctor. Cras mattis consectetur purus sit amet fermentum ultricies vehicula.</p>
+                        <h2>Saran Goshi</h2>
+                        <p>An executive chief of our restaurant who supervises all kitchen areas to ensure a consistent, high quality product is produced</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -259,7 +259,7 @@
                             <img src="img/chefs/3.jpg">
                         </div>
                         <h2>Jane Doe</h2>
-                        <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et magnis dis parturient monte nascetur ultricies vehicula. </p>
+                        <p>Chief chef who prepares buffet meals and ensure a high level of customer satisfaction through watchful presence</p>
                     </div>
                 </div>
                 <div class="col-sm-4">
@@ -267,8 +267,8 @@
                         <div class="icon-wrapper">
                             <img src="img/chefs/2.jpg">
                         </div>
-                        <h2>Anton Mosimann</h2>
-                        <p>Curabitur blandit matti tempus porttitor. Donec id elit non mi porta ut gravida at eget metus. Consectetur adipiscing elit ultricies vehicula.</p>
+                        <h2>Anton David</h2>
+                        <p>A senior chef who makes high level international delicious dishes for customers' higher satisfaction </p>
                     </div>
                 </div>
             </div>

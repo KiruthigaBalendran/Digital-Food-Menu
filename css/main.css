@@ -241,7 +241,7 @@ p.description{
     -o-transition:all 0.4s;
     transition:all 0.4s;
     color:white;
-    font-weight:bold;
+   /* font-weight:bold;*/
 }
 .navbar-inverse .navbar-nav>li>a:hover,.navbar-inverse .navbar-nav>.active>a {
     background:#ed0121;
@@ -443,7 +443,7 @@ p.description{
     width:55px;
     height:55px;
     line-height:50px;
-    font-size:23px;
+    font-size:13px;
     font-weight:700;
     border: 4px solid white;
 }

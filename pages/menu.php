@@ -58,15 +58,15 @@
             
 
             <ul class="nav navbar-nav navbar-header">
-                <li><div class="hidden-xs" id="logo"><a href="#header">
+                <li><div class="hidden-xs" id="logo"><a href="./index.php">
                 <img src="../img/16.png" alt="">
             </a></div></li>
-                <li><a href="#reservation">Menu</a></li>
-                <li><a class="scroll" href="index.html/#special-offer">Special Offers</a></li>
-                <li><a href="#chefs">Our Chefs</a></li>                
-                <li><a href="#facts">Reviews</a></li>
-                <li><a href="#food-menu">How To</a></li>
-                <li><a href="#special-offser">Contact</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="../index.php#special-offer">Special Offers</a></li>
+                <li><a href="../index.php#chefs">Our Chefs</a></li>                
+                <li><a href="#">Reviews</a></li>
+                <li><a href="#">How To</a></li>
+                <li><a href="#">Contact</a></li>
                 <li><a href="#"><img class="shoppingCart" alt="User" src="../img/cart1.png"></a></li>
                 
                 <!--fix for scroll spy active menu element-->
@@ -90,7 +90,7 @@
                                             <li class="filter" data-filter="all">All</li>
                                             <li class="filter" data-filter=".breakfast">Breakfast</li>
                                             <!-- <li class="filter" data-filter=".special">Special</li> -->
-                                            <li class="filter" data-filter=".desert">Desert</li>
+                                            <li class="filter" data-filter=".desert">Dessert</li>
                                             <li class="filter" data-filter=".dinner">Dinner</li>
                                         </ul><!-- @end #filter-list -->
                                     </div>
@@ -107,16 +107,16 @@
                                 <li class="item dinner">
 
                                     <a href="#">
-                                        <img src="../img/menu/food1.jpg" class="img-responsive" alt="Food" >
+                                        <img src="../img/menu/buriyani.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc text-center">
                                             <span>
-                                                <h3>Tomato Curry</h3>
-                                                Natalie &amp; Justin Cleaning by Justin Younger
+                                                <h3>Hyderabad Buriyani</h3>
+                                                Delicious hyderabad chicken dum buriyani
                                             </span>
                                         </div>
                                     </a>
                                         
-                                    <h2 class="white">$20</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>
 
                                 <li class="item breakfast">
@@ -125,27 +125,27 @@
                                         <img src="../img/menu/food2.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
-                                                <h3>Prawn Dish</h3>
-                                                Lorem ipsum dolor sit amet
+                                                <h3>Saganaki Prawns</h3>
+                                                Deep fried in saganaki sauce 
                                             </span>
                                         </div>
                                     </a>
                                         
-                                    <h2 class="white">$20</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>
                                 <li class="item desert">
 
                                     <a href="#">
-                                        <img src="../img/menu/food3.jpg" class="img-responsive" alt="Food" >
+                                        <img src="../img/menu/mudCake.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
-                                                <h3>Salad Dish</h3>
-                                                Consectetur adipisicing elit, sed do eiusmod
+                                                <h3>Mud Cake</h3>
+                                                Chocolate mud cake with juicy cream
                                             </span>
                                         </div>
                                     </a>
                                         
-                                    <h2 class="white">$18</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>
                                 <li class="item breakfast special">
 
@@ -153,83 +153,83 @@
                                         <img src="../img/menu/food4.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
-                                                <h3>Prawn Dish</h3>
-                                                Tempor incididunt ut labore et dolore
+                                                <h3>Thai Garlic Prawns</h3>
+                                                Fried and blended with garlic
                                             </span>
                                         </div>
                                     </a>
                                         
-                                    <h2 class="white">$15</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>
                                 <li class="item breakfast">
 
                                     <a href="#">
-                                        <img src="../img/menu/food5.jpg" class="img-responsive" alt="Food" >
+                                        <img src="../img/menu/pasta.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
-                                                <h3>Vegetable Dish</h3>
-                                                Magna aliqua. Ut enim ad minim veniam
+                                                <h3>Vegetable Pasta</h3>
+                                                Blended with cheese and topped with leaves
                                             </span>
                                         </div>
                                     </a>
                                         
-                                    <h2 class="white">$20</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>
                                 <li class="item dinner special">
 
                                     <a href="#">
-                                        <img src="../img/menu/food6.jpg" class="img-responsive" alt="Food" >
+                                        <img src="../img/menu/chicken.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
-                                                <h3>Chicken Dish</h3>
-                                                Quis nostrud exercitation ullamco laboris
+                                                <h3>Butter Chicken </h3>
+                                                Devilled chicken curry blended with butter
                                             </span>
                                         </div>
                                     </a>
 
-                                    <h2 class="white">$22</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>
                                 <li class="item desert">
 
                                     <a href="#">
-                                        <img src="../img/menu/food7.jpg" class="img-responsive" alt="Food" >
+                                        <img src="../img/menu/cheeseCake.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
-                                                <h3>Vegetable Noodles</h3>
-                                                Nisi ut aliquip ex ea commodo
+                                                <h3>Cheese Cake</h3>
+                                                Yummy cheesy cake topped with cherries
                                             </span>
                                         </div>
                                     </a>
 
-                                    <h2 class="white">$32</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>
                                 <li class="item dinner">
 
                                     <a href="#">
-                                        <img src="../img/menu/food8.jpg" class="img-responsive" alt="Food" >
+                                        <img src="../img/menu/lasagna.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
-                                                <h3>Special Salad</h3>
-                                                Duis aute irure dolor in reprehenderit
+                                                <h3>Lasagna</h3>
+                                                Blended with cheese and tomato sauce
                                             </span>
                                         </div>
                                     </a>
 
-                                    <h2 class="white">$38</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>
                                 <li class="item desert special">
 
                                     <a href="#">
-                                        <img src="../img/menu/food9.jpg" class="img-responsive" alt="Food" >
+                                        <img src="../img/menu/iceCream.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
                                                 <h3>Ice-cream</h3>
-                                                Excepteur sint occaecat cupidatat non
+                                                Chocolate Ice Cream topped with chocolate sauce
                                             </span>
                                         </div>
                                     </a>
                                     
-                                    <h2 class="white">$38</h2>
+                                    <h3 class="white">Order now</h3>
                                 </li>  
                             </ul>
 
