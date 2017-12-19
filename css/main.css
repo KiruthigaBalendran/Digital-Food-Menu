@@ -29,7 +29,7 @@ img {
 section {
     position:relative;
     padding:0;
-    background:#F0A830;
+    /*background:#F0A830;*/
     color:#FFF;
     text-align:center;
 }
@@ -212,6 +212,7 @@ p.description{
 
 .discoverAll{
     font-weight: bold;
+    background-color: #ff5722;
 }
 
 @media (min-width:768px) {
