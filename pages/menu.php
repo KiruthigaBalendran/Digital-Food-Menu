@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="../css/pricing.css">
 
     <!-- google font -->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700'>
     
     <!-- js -->
     <!-- <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
@@ -232,11 +232,6 @@
                                     <h3 class="white">Order now</h3>
                                 </li>  
                             </ul>
-
-                            <!-- <div class="text-center">
-                                    <a id="loadPricingContent" class="btn btn-middle hidden-sm hidden-xs">Load More <span class="caret"></span></a>
-                            </div> -->
-
                         </div>   
                     </div>
                 </div>
@@ -246,7 +241,6 @@
 
 
     <footer id="footer" class="dark-wrapper">
-        <!-- <section class="ss-style-top"></section> -->
         <div class="container inner">
             <div class="row">
                 <div class="w3_agileits-subscribe text-center">
@@ -270,24 +264,6 @@
                         <a href="#" class="fa fa-linkedin-square tooltipped" title=""></a>
                     </div>
                 </div>
-                <!-- <div class="section">
-                    <div class="w3_agileits-subscribe timings text-center">
-                        <div class="time">
-                            <div>
-                                <h5><i class="fa fa-map-marker" aria-hidden="true"></i>  </h5>
-                                <p>No 5, Queens Road, Colombo-03</p>
-                            </div>
-                            <div>
-                                <h5><i class="fa fa-phone" aria-hidden="true"></i>  </h5>
-                                <p>011-5448956</p>
-                            </div>
-                            <div>
-                                <h5><i class="fa fa-envelope" aria-hidden="true"></i>  </h5>
-                                <p>info@foodicious.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
         <!-- /.container -->
