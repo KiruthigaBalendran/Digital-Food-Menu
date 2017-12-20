@@ -45,7 +45,7 @@
 
             <ul class="nav navbar-nav navbar-header">
                 <li><div class="hidden-xs" id="logo"><a href="index.php">
-                <img src="img/16.png" alt="">
+                <img src="img/logo.png" alt="">
             </a></div></li>
                 <li><a href="pages/menu.php">Menu</a></li>
                 <li><a href="#special-offer">Special Offers</a></li>
