@@ -1,0 +1,77 @@
+.contact1{
+    margin-top: 140px;
+}
+.title-contact{
+    color: #ff5722;
+    text-align: center;
+}
+
+.footer-grid {
+    /*background: #a51c21;*/
+    background-color: #333;
+    padding: 2em 0;
+    margin-bottom: 3em;
+}
+.footer h4 {
+    font-size: 3em;
+    line-height: 1em;
+    color: #68D0AF;
+    margin-bottom: 0.5em;
+}
+.footer_grid_bottom ul {
+  padding: 0;
+  margin: 0;
+}
+.footer_grid_bottom ul li {
+    display: block;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 1em;
+}
+.footer_grid_bottom ul li a{
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer_grid_bottom ul {
+    list-style-type: none;
+    margin-bottom: 1em;
+    color: #999;
+    font-size: 14px;
+}
+
+.footer_grid_bottom ul li {
+    display: block;
+    color: #ffffff;
+    letter-spacing: .5px;
+    font-size: 14px;
+    margin: 23px 0;
+    list-style: none;
+    width: 33.33%;
+    float: left;
+    font-weight: 500;
+}
+
+.footer_grid_bottom.contact p {
+    margin-top: 10px;
+    display: inline-block;
+    width: 70%;
+    line-height: 28px;
+}
+.footer_grid_bottom.contact ul li span {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    padding-top: 25px;
+    margin-right: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    background: #ff5722;
+}

@@ -66,7 +66,7 @@
                 <li><a href="../index.php#chefs">Our Chefs</a></li>                
                 <li><a href="#">Reviews</a></li>
                 <li><a href="#">How To</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="#"><img class="shoppingCart" alt="User" src="../img/cart1.png"></a></li>
                 
                 <!--fix for scroll spy active menu element-->
