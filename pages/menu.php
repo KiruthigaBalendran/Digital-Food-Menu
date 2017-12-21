@@ -61,13 +61,13 @@
                 <li><div class="hidden-xs" id="logo"><a href="./index.php">
                 <img src="../img/logo.png" alt="">
             </a></div></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="../index.php#special-offer">Special Offers</a></li>
-                <li><a href="../index.php#chefs">Our Chefs</a></li>                
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">How To</a></li>
+                <li><a href="menu.php">Menu</a></li>
+                <li><a class="scroll" href="../index.php#special-offer">Special Offers</a></li>
+                <li><a class="scroll" href="../index.php#chefs">Our Chefs</a></li>                
+                <li><a href="review.html">Reviews</a></li>
+                <li><a href="howto.html">How To</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="#"><img class="shoppingCart" alt="User" src="../img/cart1.png"></a></li>
+                <li><a href="shoppingcart.html"><img class="shoppingCart" alt="User" src="../img/cart1.png"></a></li>
                 
                 <!--fix for scroll spy active menu element-->
                 <li style="display:none;"><a href="#header"></a></li>
