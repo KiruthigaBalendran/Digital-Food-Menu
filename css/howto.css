@@ -1,0 +1,43 @@
+﻿#howtodiv1 {
+	padding-top: 40px;
+}
+
+#listgroup {
+	height: auto;
+	margin-top: -30px
+}
+
+#listgroup1 {
+	height: auto;
+}
+
+#row1h {
+	float: left
+}
+
+#row1p1 {
+	font-size: large;
+}
+
+#image1 {
+	width: 75%;
+	float: left;
+}
+
+#hbbutton1 {
+	height: auto
+}
+
+#row2h {
+	float: left
+}
+
+#row2p1 {
+	font-size: large;
+}
+
+#image2 {
+	width: 85%;
+	float: left;
+	padding-top: 20px;
+}
