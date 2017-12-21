@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <title>Foodicious</title>
+
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/animate.css">
+    <link rel="stylesheet" href="../css/flexslider.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/pricing.css">
+    <link rel="stylesheet" href="../css/food.css">
+    <link rel="stylesheet" href="../css/howto.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- google font -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700'>
+    
+    <!-- js -->
+    <!-- <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
+
+    <script src="../js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.flexslider.min.js"></script>
+    <script type="text/javascript">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                 animation: "slide",
+                 controlsContainer: ".flexslider-container"
+                });
+            });
+    </script>
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="120" >
+    <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <?php ?>
+    <div id="menu" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header visible-xs">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><h2>Foodicious</h2></a>
+            </div><!-- navbar-header -->
+        <div id="navbar" class="navbar-collapse collapse">
+            
+
+            <ul class="nav navbar-nav navbar-header">
+                <li><div class="hidden-xs" id="logo"><a href="#header">
+                <img src="../img/16.png" alt="">
+            </a></div></li>
+                <li><a href="#reservation">Menu</a></li>
+                <li><a class="scroll" href="index.html/#special-offer">Special Offers</a></li>
+                <li><a href="#chefs">Our Chefs</a></li>                
+                <li><a href="#facts">Reviews</a></li>
+                <li><a href="#food-menu">How To</a></li>
+                <li><a href="#special-offser">Contact</a></li>
+                <li><a href="#"><img class="shoppingCart" alt="User" src="../img/cart1.png"></a></li>
+                
+                <!--fix for scroll spy active menu element-->
+                <li style="display:none;"><a href="#header"></a></li>
+
+            </ul>
+        </div><!--/.navbar-collapse -->
+        </div><!-- container -->
+    </div><!-- menu -->
+
+    <section id="pricing" class="pricing" style="background: transparent;" >
+
+            
+
+        <div class="container" id="foodcontainer">
+            <div class="col-xs-3">
+            </div>
+            <div class="col-xs-6" >
+                <div class="input-group" id="howtodiv1">
+                  <input type="text" class="form-control" placeholder="Type to search instructions">
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><i class="glyphicon glyphicon-search"></i></button>
+                  </span>
+                </div>
+            </div>            
+        </div>    
+
+        <div class="container" id="foodcontainer">
+            <div class="col-xs-1">
+            </div>
+            <div class="col-xs-10" >
+                <div class="row">
+                    <div class="list-group" id="listgroup">
+                      <a href="#" class="list-group-item ">
+                        <div class="col-xs-4 item-photo">
+                            <img id="image1" src="../img/PlaceOrder.jpg"/>
+                        </div>
+                        <div id="hbbutton1">                        
+                            <h2 class="list-group-item-heading" id="row1h">How to Place an Order?</h2> <br> <br> <br>
+                            <p class="list-group-item-text" id="row1p1">Click on menu tab then on the desired food item ...</p><br>
+                            <button class="btn btn-primary btn-lg" >Read More</button><br>
+                            <label> </label>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="list-group" id="listgroup1">
+                      <a href="#" class="list-group-item ">
+                        <div class="col-xs-4 item-photo">
+                            <img id="image2" src="../img/restore.jpg"/>
+                        </div>
+                        <div id="hbbutton1">                        
+                            <h2 class="list-group-item-heading" id="row2h">How to Restore Deleted Order?</h2> <br> <br> <br>
+                            <p class="list-group-item-text" id="row2p1">Go to history in profile then click undo ..</p><br>
+                            <button class="btn btn-primary btn-lg" >Read More</button><br>
+                            <label> </label>
+                        </div>
+                      </a>
+                    </div>
+                    <nav aria-label="...">
+                      <ul class="pagination pagination-lg">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="#" tabindex="-1">Previous</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">Next</a>
+                        </li>
+                      </ul>
+                    </nav>
+                </div>
+            </div>            
+        </div> 
+    </section>
+
+
+    <footer id="footer" class="dark-wrapper">
+        <!-- <section class="ss-style-top"></section> -->
+        <div class="container inner">
+            <div class="row">
+                <div class="w3_agileits-subscribe text-center">
+                    <div class="subscribe-head">
+                        <h4>get subscribed! </h4>
+                        <p class="sub-p">Never miss out on latest sales and best offers!</p>
+                        <div class="subscribe-form">
+                            <form action="#" method="post" class="subscribe_form">
+                                <input type="email" placeholder="Email" required="">
+                                <input type="submit" value="subscribe">
+                            </form>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <p>We value your privacy & guarantee zero spamming.</p>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <div class="social-bar">
+                        <a href="#" class="fa fa-twitter-square tooltipped" title=""></a>
+                        <a href="#" class="fa fa-facebook-square tooltipped" title=""></a>
+                        <a href="#" class="fa fa-linkedin-square tooltipped" title=""></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+
+    <script src="../js/jquery.actual.min.js"></script>
+    <script src="../js/jquery.scrollTo.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mixitup.min.js" ></script>
+    <script src="../js/wow.min.js"></script>
+    <script src="../js/jquery.validate.js"></script>
+    <script type="text/javascript" src="../js/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="../js/jQuery.scrollSpeed.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
