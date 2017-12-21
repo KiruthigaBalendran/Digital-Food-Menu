@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/overlay.css">
 
     <!-- google font -->
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700'>
@@ -54,6 +55,7 @@
                 <li><a href="pages/howto.html">How To</a></li>
                 <li><a href="pages/contact.html">Contact</a></li>
                 <li><a href="pages/shoppingcart.html"><img class="shoppingCart" alt="User" src="img/cart1.png"></a></li>
+                <li><button onclick="on()">Instructions</button></li>
                 
                 <!--fix for scroll spy active menu element-->
                 <li style="display:none;"><a href="#header"></a></li>
@@ -300,13 +302,30 @@
                 </div>
             </div>
         </div>
+
         <!-- /.container -->
     </footer>
+
+    <div id="overlay" onclick="off()">
+        <div id="text">
+            <p id="one">Click on 'Menu' to see the food menu. </p>
+            <p id="two">Click on 'Instruction' button to show this screen</p>
+            <p id="three">Click any where to close this screen<p>
+            <p id="four">Scroll down</p>
+            <p id="five">Click on 'Discover All' Button</p>
+            <img src="img/pointingup.png" id="img1"></img>
+            <img src="img/pointingup.png" id="img2"></img>
+            <img src="img/pointingdown.png" id="img4"></img>
+            <img src="img/pointingdown.png" id="img5"></img>
+            <img src="img/taptap.png" id="img3"></img>
+        </div>
+    </div>
 
     <script src="js/jquery-2.1.3.min.js"></script>
     <script src="js/jquery.actual.min.js"></script>
     <script src="js/jquery.scrollTo.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/overlay.js"></script>
 </body>
 </html>
