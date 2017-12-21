@@ -61,7 +61,7 @@
                 <li><div class="hidden-xs" id="logo"><a href="./index.php">
                 <img src="../img/logo.png" alt="">
             </a></div></li>
-                <li><a href="#">Menu</a></li>
+                <li><a href="menu.php">Menu</a></li>
                 <li><a href="../index.php#special-offer">Special Offers</a></li>
                 <li><a href="../index.php#chefs">Our Chefs</a></li>                
                 <li><a href="#">Reviews</a></li>
@@ -106,7 +106,7 @@
                             <ul id="menu-pricing" class="menu-price">
                                 <li class="item dinner">
 
-                                    <a href="food.html">
+                                    <a href="food.html?title=Hyderabad Buriyani&price=Rs.500&image=../img/menu/buriyani.jpg&description=Delicious hyderabad chicken dum buriyani&carb=400g&cal=150&pro=600g&ing1=Chicken&ing2=Egg&ing3=Rice">
                                         <img src="../img/menu/buriyani.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc text-center">
                                             <span>
@@ -121,7 +121,7 @@
 
                                 <li class="item breakfast">
 
-                                    <a href="#">
+                                    <a href="food.html?title=Saganaki Prawns&price=Rs.800&image=../img/menu/food2.jpg&description=Deep fried in saganaki sauce&carb=200g&cal=350&pro=600g&ing1=Prawns&ing2=Peanut Butter&ing3=Soya Sauce">
                                         <img src="../img/menu/food2.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
@@ -135,7 +135,7 @@
                                 </li>
                                 <li class="item desert">
 
-                                    <a href="#">
+                                    <a href="food.html?title=Mud Cake&price=Rs.300&image=../img/menu/mudCake.jpg&description=Chocolate mud cake with juicy cream&carb=500g&cal=550&pro=200g&ing1=Coco&ing2=Cheese&ing3=Vanilla Essence">
                                         <img src="../img/menu/mudCake.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
@@ -149,7 +149,7 @@
                                 </li>
                                 <li class="item breakfast special">
 
-                                    <a href="#">
+                                    <a href="food.html?title=Thai Garlic Prawns&price=Rs.750&image=../img/menu/food4.jpg&description=Fried and blended with garlic&carb=200g&cal=300&pro=700g&ing1=Prawns&ing2=Garlic&ing3=Soya Sauce">
                                         <img src="../img/menu/food4.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
@@ -163,7 +163,7 @@
                                 </li>
                                 <li class="item breakfast">
 
-                                    <a href="#">
+                                    <a href="food.html?title=Vegetable Pasta&price=Rs.650&image=../img/menu/pasta.jpg&description=Blended with cheese and topped with leaves&carb=500g&cal=300&pro=200g&ing1=Pasta&ing2=Cheese&ing3=vegetables">
                                         <img src="../img/menu/pasta.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
@@ -177,7 +177,7 @@
                                 </li>
                                 <li class="item dinner special">
 
-                                    <a href="#">
+                                    <a href="food.html?title=Butter Chicken&price=Rs.550&image=../img/menu/chicken.jpg&description=Devilled chicken curry blended with butter&carb=300g&cal=600&pro=400g&ing1=Chicken&ing2=Cheese&ing3=Butter">
                                         <img src="../img/menu/chicken.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
@@ -191,7 +191,7 @@
                                 </li>
                                 <li class="item desert">
 
-                                    <a href="#">
+                                    <a href="food.html?title=Cheese Cake&price=Rs.550&image=../img/menu/cheeseCake.jpg&description=Yummy cheesy cake topped with cherries&carb=400g&cal=600&pro=200g&ing1=Cream Cheese&ing2=Butter&ing3=Eggs">
                                         <img src="../img/menu/cheeseCake.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
@@ -205,7 +205,7 @@
                                 </li>
                                 <li class="item dinner">
 
-                                    <a href="#">
+                                    <a href="food.html?title=Lasagna&price=Rs.750&image=../img/menu/lasagna.jpg&description=Blended with cheese and tomato sauce&carb=500g&cal=700&pro=200g&ing1=Cheese&ing2=Chicken&ing3=Eggs">
                                         <img src="../img/menu/lasagna.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
@@ -219,7 +219,7 @@
                                 </li>
                                 <li class="item desert special">
 
-                                    <a href="#">
+                                    <a href="food.html?title=Ice-cream&price=Rs.250&image=../img/menu/iceCream.jpg&description=Chocolate Ice Cream topped with chocolate sauce&carb=200g&cal=700&pro=400g&ing1=Cocoa&ing2=Butter&ing3=Eggs">
                                         <img src="../img/menu/iceCream.jpg" class="img-responsive" alt="Food" >
                                         <div class="menu-desc">
                                             <span>
