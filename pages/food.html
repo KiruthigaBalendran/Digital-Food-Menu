@@ -21,14 +21,13 @@
     <link rel="stylesheet" href="../css/pricing.css">
     <link rel="stylesheet" href="../css/food.css">
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-
 
     <!-- google font -->
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700'>
     
     <!-- js -->
     <script src="../js/jquery-2.1.3.min.js"></script>
+    
 </head>
 <body data-spy="scroll" data-target="#navbar" data-offset="120" >
     <!--[if lt IE 7]>
@@ -74,24 +73,23 @@
         <div class="container" id="foodcontainer">
             <div class="row" id="foodrow" >
                <div class="col-xs-4 item-photo" id="imagebuttons">
-                    <img id="img" src="../img/piza.jpeg" />
+                    <img id="img" src="" />
                     <div class="col-xs-11" id="addtocart" >
-                        <button class="btn btn-primary btn-lg" >Add to Cart</button>
+                        <button class="btn btn-primary btn-lg" onclick="location.href='menu.php';"  >Add to Cart</button>
                     </div> 
 
                     <div class="col-xs-11" id="addtocart">
-                        <button class="btn btn-warning btn-lg" >Buy Now</button>
+                        <button class="btn-lg discoverAll" onclick="createQuery()" >Buy Now</button>
 
                     </div>
                     <div class="col-xs-2" id="ingredientdiv1">
                         <h3 id="ingredienth3"><b>Ingredients :</b></h3><br>
                         <div class="col-xs-5" id="ingredientdiv2">
                             <ul id="ul">
-                                <li>Flour</li>
-                                <li>Sugar</li>
-                                <li>Butter</li>
-                                <li>Mozeralla</li>
-                                <li>Water</li>
+                                <li id="ing1">Flour</li>
+                                <!-- <li>Sugar</li> -->
+                                <li id="ing2">Butter</li>
+                                <li id="ing3">Mozeralla</li>
                             </ul>
                         </div>
                     </div>
@@ -191,15 +189,15 @@
                     <table class="table borderless" id="foodtable">
                         <tbody id="foodtbody">
                             <tr id="row1">
-                                <td id="row1data1"><h4><B>Rs 1700</B></h4></td>
-                                <td id="row1data2"><h4>Discount 10%</h4></td>
+                                <td id="row1data1"><h4><B id="p">Rs 1700</B></h4></td>
+                                <!-- <td id="row1data2"><h4>Discount 10%</h4></td> -->
 
                             </tr>
                             <tr class="rows">
                                 <td id="row2data1"><h3><B>Quantity</B></h3></td>
                             </tr>
                             <tr class="rows">
-                                <td id="row3data1"><input type="text" placeholder="Enter Quantity" class="form-control" /></td>
+                                <td id="row3data1"><input type="number" placeholder="Enter Quantity" class="form-control" /></td>
                                 <!--<td id="row3data2"><button class="btn btn-primary btn-lg">Check Availability</button></td> -->
                             </tr>
                             <tr class="rows">
@@ -210,10 +208,10 @@
                                 <td id="row5data1"></td>
                                 <td id="row5data2"><input type="checkbox" value="DevilledFish" class="form-check-input"/>Devilled Fish</td>
                             </tr>
-                            <tr class="rows">
+<!--                             <tr class="rows">
                                 <td id="row6data1"></td>
                                 <td id="row6data2"><input type="checkbox" value="Cheese" form-check-input/>Cheese</td>
-                            </tr>
+                            </tr> -->
                             <tr class="rows">
                                 <td id="row7data1"></td>
                                 <td id="row7data2"><input type="checkbox" value="DevilledChicken" form-check-input/>Devilled Chicken</td>
@@ -226,9 +224,9 @@
                                 <td id="row9data1"><h3><b>Size<b></h3></b></td>
                             </tr>
                             <tr class="rows">
-                                <td id="row10data1"><input type="radio" value="Small" name="size" class="form-control" />Small</td>
-                                <td id="row10data2"><input type="radio" value="Medium" name="size" class="form-control" />Medium</td>
-                                <td id="row10data3"><input type="radio" value="Large" name="size" class="form-control" />Large</td>
+                                <td id="row10data1"><input type="radio" id="r1" value="Small" name="size" class="form-control" checked="checked" />Small</td>
+                                <td id="row10data2"><input type="radio" id="r2" value="Medium" name="size" class="form-control" />Medium</td>
+                                <td id="row10data3"><input type="radio" id="r3" value="Large" name="size" class="form-control" />Large</td>
                             </tr>
                             <tr class="rows">
                                 <td id="row11data1"><h3><b>Nutrition</b></h3></td>
@@ -251,27 +249,28 @@
                                 <td id="row14data3"> Protein</td>
                                 <td id="row14data4"> 100g</td>
                             </tr>
-                            <tr class="rows">
+                           <!--  <tr class="rows">
                                 <td id="row15data1"> </td>
                                 <td id="row15data2"> </td>
                                 <td id="row15data3"> Sugar</td>
                                 <td id="row15data4"> 10g</td>
-                            </tr>
+                            </tr> -->
                             <tr class="rows">
                                 <td id="row16data1"><h3><b>Serves</b></h3></td>
                             </tr> 
                             <tr class="rows">
-                                <td id="row17data1"> 4 people</td>
+                                <td  id="row17data1">2 People</td>
+                            </tr>
+                            <tr class="rows">
+                                <td id="row18data1"><h3><b>Description</b></h3></td>
+                            </tr> 
+                            <tr class="rows">
+                                <td id="row19data1">This is the best selling food item of our restuarant.</td>
                             </tr> 
                             
                             
                         </tbody>                        
-                    </table>
-                    <div>
-                        <label id="label1"><h3><b>Description</b></h3></label><br>
-                        <label id="label2">This is the best selling food item of our restuarant. xddgdg gsgs g sgs agsbdb fsg sgs  sss</label>                                
-                    </div>
-                    
+                    </table>               
         
                        
         
@@ -312,7 +311,14 @@
         <!-- /.container -->
     </footer>
 
-
+    <!-- <script type="text/javascript">
+        var value = $('input[name=size]:checked').val();
+        if(value=='Medium')
+        {
+            document.getElementById("row17data1").innerHTML = "4 people";
+        }
+    </script> -->
+    <script src="../js/queryStringFood.js"></script>
     <script src="../js/jquery.actual.min.js"></script>
     <script src="../js/jquery.scrollTo.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
