@@ -125,7 +125,7 @@
                     <h4 class="sub-title">Feel the flavour, feel the aroma, feel the taste in every bite.</h4>
                     <div class="find-about">
 
-                        <a href="#" class="btn-lg discoverAll">Discover all</a>
+                        <a href="pages/menu.php" class="btn-lg discoverAll">Discover all</a>
 
                     </div>
                 </div>
