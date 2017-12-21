@@ -141,44 +141,40 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <!-- <td><img src="../img/piza.jpeg" style="max-width: 40%;max-height: 40%;background: magenta;float: left"></td> -->
-                          <td style="text-align: left">Classic Pizza</td>
-                          <td style="text-align: left">Rs 1700</td>
-                          <!-- <td ><div class="input-group spinner input-group-lg">
-    <input type="text" class="form-control" value="42">
-    <div class="input-group-btn-vertical input-group-lg">
-      <button class="btn btn-default btn-lg" type="button"><i class="fa fa-caret-up"></i></button>
-      <button class="btn btn-default btn-lg" type="button"><i class="fa fa-caret-down"></i></button>
-    </div></td> -->
-                        <td ><div class="input-group spinner ">
-    <input type="text" class="form-control" value="42">
-    <div class="input-group-btn-vertical ">
-      <button class="btn btn-default " type="button"><i class="fa fa-caret-up"></i></button>
-      <button class="btn btn-default " type="button"><i class="fa fa-caret-down"></i></button>
-    </div></td>
-                        <td ><button class="btn btn-primary btn-lg" style="float: left">Update</button></td> 
-                        <td ><button class="btn btn-danger btn-lg" style="float: left">Delete</button></td>
+                          <td id="item" style="text-align: left">Classic Pizza</td>
+                          <td id="price" style="text-align: left">Rs 1700</td>
+                          <td ><div class="input-group spinner ">
+                            <input type="number" id="quantity" class="form-control" value="2">
+                          </td>
+                            <td ><button class="btn btn-primary btn-lg" onclick="calculatePrice()" style="float: left">Update</button></td> 
+                            <td ><button class="btn btn-danger btn-lg" style="float: left">Delete</button></td>
                           
                         </tr>
                         <tr>
-                          <!-- <td><img src="../img/dish/dahi.jpg" style="max-width: 40%;max-height: 40%;background: magenta;float: left"></td> -->
-                          <td style="text-align: left">Cheesecake</td>
-                          <td style="text-align: left">Rs 2000</td>
-                        <td ><div class="input-group spinner ">
-    <input type="text" class="form-control" value="42">
-    <div class="input-group-btn-vertical ">
-      <button class="btn btn-default " type="button"><i class="fa fa-caret-up"></i></button>
-      <button class="btn btn-default " type="button"><i class="fa fa-caret-down"></i></button>
-    </div></td>
-                        <td ><button class="btn btn-primary btn-lg" style="float: left">Update</button></td> 
-                        <td ><button class="btn btn-danger btn-lg" style="float: left">Delete</button></td>
+                            <td style="text-align: left">Saganaki Prawns</td>
+                            <td style="text-align: left">Rs.800</td>
+                            <td ><div class="input-group spinner ">
+                                <input type="number" class="form-control" value="1">
+                            </td>
+                            <td ><button class="btn btn-primary btn-lg" onclick="calculatePrice()" style="float: left">Update</button></td> 
+                            <td ><button class="btn btn-danger btn-lg" style="float: left">Delete</button></td>
                            
                         </tr>
+                        <!-- <tr>
+                            <td style="text-align: left">Ice Cream</td>
+                            <td style="text-align: left">Rs 250</td>
+                            <td ><div class="input-group spinner ">
+                                <input type="number" class="form-control" value="1">
+                            </td>
+                            <td ><button class="btn btn-primary btn-lg" onclick="calculatePrice()"  style="float: left">Update</button></td> 
+                            <td ><button class="btn btn-danger btn-lg" style="float: left">Delete</button></td>
+                           
+                        </tr> -->
 
                       </tbody>
                     </table>
                   </div>
-                  <button class="btn-lg discoverAll" >Continue Shopping</button>
+                  <!-- <button class="btn-lg discoverAll" >Continue Shopping</button> -->
                   <button class="btn btn-lg" style="float: right;background: yellow">Clear Cart</button>  <br> <br>
                 </div>
                 </div>
@@ -191,13 +187,10 @@
                         <h2  style="text-align: left">Cart Totals</h2>
                       </div>
                       <div class="panel-body" style="color: black">
-                        <h3 style="text-align: left">Sub Total</h3>
-                        <label >Rs 2000</label> 
-                        <hr>
                         <h3 style="text-align: left">Total</h3>
-                        <label >Rs 3700</label> 
+                        <label id="total">Rs 3700</label> 
                         <hr>
-                        <button class="btn-lg discoverAll" >Proceed To Checkout</button>
+                        <button class="btn-lg discoverAll" onclick="location.href='checkout.html';" >Proceed To Checkout</button>
                       </div>
                     </div>
                 </div>
@@ -259,7 +252,36 @@
         <!-- /.container -->
     </footer>
 
+    <script type="text/javascript">
+        function getParameterByName(name, url) {
+            if (!url) url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
 
+        var price = getParameterByName('price');
+        var title = getParameterByName('title');
+        var quantity = getParameterByName('quantity');
+
+        document.getElementById('item').innerHTML = title;
+        document.getElementById("price").innerHTML = price;
+        document.getElementById("quantity").value = quantity;
+        
+        calculatePrice();
+
+        function calculatePrice(){
+            var finalPrice = getParameterByName('price').substring(3);
+            var total = 800 + (finalPrice * getParameterByName('quantity'));
+            document.getElementById("total").innerHTML = 'Rs.'+total;
+        }
+        
+        //console.log(total);
+
+    </script>
     <script src="../js/jquery.actual.min.js"></script>
     <script src="../js/jquery.scrollTo.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
