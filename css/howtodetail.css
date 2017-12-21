@@ -1,0 +1,84 @@
+﻿#howtodetailcontainer {
+    padding-top: 45px;
+    max-width:100%;
+    margin-top: 40px;
+}
+
+#stepcontainer {
+    max-width:100%;
+    margin-top: 40px;
+    color: black;
+    float: left
+}
+
+#stepheading {
+	text-align: left
+}
+
+#steps {
+	color: black;
+	float: left
+}
+
+#step {
+	text-align: left;
+	font-size: large;
+}
+#step1 {
+	float: left;
+	text-align: left
+}
+
+#step2 {
+	float: left;
+	text-align: left
+}
+
+#step3 {
+	float: left
+}
+
+#div1 {
+	color: black
+}
+
+#sort {
+	float: left
+}
+
+#addbtn {
+	float: left
+}
+
+#row1h3 {
+	float: left;
+}
+
+.star-rating {
+	color: yellow;
+	line-height: 32px;
+	font-size: 1.25em
+}
+
+.star-rating .fa-star {
+	color: yellow;
+}
+
+
+#row1p1 {
+	font-size: large;
+}
+
+#imag1 {
+	width: 55%;
+	float: left;
+	padding-top: 10px
+}
+
+#imag2 {
+	width: 55%;
+	float: left;
+	padding-top: 20px
+}
+
+	
