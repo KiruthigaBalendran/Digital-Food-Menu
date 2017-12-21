@@ -72,21 +72,21 @@
 
             
         <div class="container" style="padding-top: 45px;max-width:100%;margin-top: 40px">
-            <div class="row" style="padding-top: 25px;width: auto;background: transparent;color: black" >
-                <h1><b>Select a Payement Method</b></h1>
+            <div class="row"  style="padding-top: 25px;width: auto;background: transparent;color: black" >
+                <h1 id="checkout1"><b>Select a Payement Method</b></h1>
                 <div class="table-responsive" style="width: auto;">
                     <table class="table table-responsive borderless" style="color: black;background: transparent;font-size: large;">
                         <tbody style="width: auto;">
                             
-                            <tr style="border: none;">
+                            <tr style="border: none;" id="checkout2">
                                 <td style="border: none;font-size: xx-large;"><input type="radio" value="Card" name="payment" />Card</td>
                             </tr>
-                            <tr style="border: none;">
+                            <tr style="border: none;" id="checkout3">
                                 <td style="border: none;font-size: xx-large;"><input type="radio" value="Cash" name="payment" />Cash</td>
                             </tr>
                             
-                            <tr style="border: none;">
-                                <td style="border: none;"> <button class="btn btn-warning btn-lg">Order</button></td>
+                            <tr style="border: none;" id="checkout4">
+                                <td style="border: none;"> <button class="btn btn-warning btn-lg" id="myAlert" onclick="alertmessage()">Order</button></td>
                             </tr>                             
                             
                         </tbody>                        
@@ -95,7 +95,12 @@
             </div> 
         </div>    
         </section>
-
+<div class="container" id="alertmsg" style="display: none">
+  <div class="alert alert-success alert-dismissible" id="alertmsg">
+    <a href="#" class="close">&times;</a>
+    <strong>Success!</strong> The order is placed successfully.
+  </div>
+</div>
 
     <footer id="footer" class="dark-wrapper">
         <!-- <section class="ss-style-top"></section> -->
@@ -144,7 +149,16 @@
         </div>
         <!-- /.container -->
     </footer>
+<script>
+    function alertmessage(){
+        $(document).ready(function(){
+    $(".close").click(function(){
+        $("#myAlert").alert("close");
+    });
+});
+    }
 
+</script>
 
     <script src="../js/jquery.actual.min.js"></script>
     <script src="../js/jquery.scrollTo.min.js"></script>
@@ -155,5 +169,6 @@
     <script type="text/javascript" src="../js/jquery.hoverdir.js"></script>
     <script type="text/javascript" src="../js/jQuery.scrollSpeed.js"></script>
     <script src="../js/main.js"></script>
+    <script src="../js/checkout.js"></script>
 </body>
 </html>
