@@ -50,10 +50,10 @@
                 <li><a href="pages/menu.php">Menu</a></li>
                 <li><a href="#special-offer">Special Offers</a></li>
                 <li><a href="#chefs">Our Chefs</a></li>                
-                <li><a href="#">Reviews</a></li>
-                <li><a href="#">How To</a></li>
+                <li><a href="pages/review.html">Reviews</a></li>
+                <li><a href="pages/howto.html">How To</a></li>
                 <li><a href="pages/contact.html">Contact</a></li>
-                <li><a href="#"><img class="shoppingCart" alt="User" src="img/cart1.png"></a></li>
+                <li><a href="pages/shoppingcart.html"><img class="shoppingCart" alt="User" src="img/cart1.png"></a></li>
                 
                 <!--fix for scroll spy active menu element-->
                 <li style="display:none;"><a href="#header"></a></li>
