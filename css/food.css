@@ -1,0 +1,289 @@
+﻿#foodcontainer {
+    padding-top: 45px;
+    max-width:100%;
+    margin-top: 40px
+}
+
+#foodrow {
+    padding-top: 25px;
+    width: auto;
+    background: transparent
+}
+
+#imagebuttons {
+    max-width:100%;
+    background: transparent
+}
+
+#img {
+	max-width:100%;
+}
+
+#addtocart {
+	padding-top: 20px;
+}
+
+#ingredientdiv1 {
+	padding-top: 40px;
+	background: transparent;
+	width: auto;
+	resize: all;
+}
+
+#ingredienth3 {
+	color: black
+}
+
+#ingredientdiv2 {
+	background: transparent;
+	width: auto;
+}
+
+#ul {
+	list-style-type: none;
+	color: black;
+	font-size: large;
+}
+
+#ul2 {
+	list-style-type: none;
+	color: black;
+	font-size: large;
+	float: left;
+}
+
+#ul3 {
+	list-style-type: none;
+	color: black;
+	font-size: large;
+	float: left;
+}
+
+#tablediv1 {
+	border:0px solid gray;
+	background: transparent;
+	width: auto
+}
+
+#tableh1 {
+	color:black
+}
+
+#tablediv2 {
+	width: auto;
+}
+
+#foodtable {
+	color: black;
+	background: transparent;
+	font-size: large;
+}
+
+#foodtbody {
+	width: auto;
+}
+
+#row1 {
+	border: none;
+	width: auto;
+}
+
+#row1data1 {
+	border: none;
+	float: left;
+	width: auto;
+}
+
+#row1data2 {
+	border: none;
+	float: right;
+	width: auto;
+}
+
+.rows {
+	border: none;
+}
+
+#row15data4 {
+	border: none;
+}
+
+#row17data1 {
+	border: none;
+}
+
+#row2data1 {
+	border: none;
+	float: left;
+	width: auto;
+}
+
+#row3data1 {
+	border: none;
+	width: auto;
+}
+
+#row3data2 {
+	border: none;
+	width: auto;
+}
+
+#row4data1 {
+	border: none;
+	float: left
+}
+
+#row5data1 {
+	border: none;
+	float: left
+}
+
+#row5data2 {
+	border: none;
+	float: left;
+}
+
+#row6data1 {
+	border: none;
+	float: left
+}
+
+#row6data2 {
+	border: none;
+	float: left
+}
+
+#row7data1 {
+	border: none;
+	float: left
+}
+
+#row7data2 {
+	border: none;
+	float: left
+}
+
+#row8data1 {
+	border: none;
+	float: left
+}
+
+#row8data2 {
+	border: none;
+	float: left
+}
+
+#row9data1 {
+	border: none;
+	float: left
+}
+
+#row11data1 {
+	border: none;
+	float: left
+}
+
+#row12data1 {
+	border: none;
+	float: left
+}
+
+#row12data2 {
+	border: none;
+	float: left
+}
+
+#row12data3 {
+	border: none;
+	float: left
+}
+
+#row13data1 {
+	border: none;
+	float: left
+}
+
+#row13data2 {
+	border: none;
+	float: left
+}
+
+#row13data3 {
+	border: none;
+	float: left
+}
+
+#row14data1 {
+	border: none;
+	float: left
+}
+
+#row14data2 {
+	border: none;
+	float: left
+}
+
+#row14data3 {
+	border: none;
+	float: left
+}
+
+#row15data1 {
+	border: none;
+	float: left
+}
+
+#row15data2 {
+	border: none;
+	float: left
+}
+
+#row15data3 {
+	border: none;
+	float: left
+}
+
+#row16data1 {
+	border: none;
+	float: left
+}
+
+#row10data1 {
+	border: none;
+	float: left;
+}
+
+#row10data2 {
+	border: none;
+	float: left;
+}
+
+#row10data3 {
+	border: none;
+	float: left;
+}
+
+#row12data4 {
+	border: none
+}
+
+#row13data4 {
+	border: none
+}
+
+#row14data4 {
+	border: none
+}
+
+#row15data4 {
+	border: none
+}
+
+#label1 {
+	float: left;
+	color: black
+}
+
+#label2 {
+	color:black
+}
