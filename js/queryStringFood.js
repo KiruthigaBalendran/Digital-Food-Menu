@@ -73,7 +73,22 @@ if(value=='Medium')
 
 function createQuery(){
 	var price = document.getElementById('row1data1').innerHTML;
-	var title = document.getElementById("tableh1").innerHTML;
-	//var quantity = document.getElementById("quantity").value;
-	window.location.href = 'shoppingcart.html' + '?' + price + '&'+ title + '&'+ quantity;
+	var title = document.getElementById('tableh1').innerHTML;
+	var quantity = document.getElementById('quantity').value;
+
+	window.location.href = 'shoppingcart.html' + '?price=' +price+ '&title='+title+ '&quantity='+quantity;
+
+	// var price = getParameterByName('price');
+	// var title = getParameterByName('title');
+	// var quantity = getParameterByName('quantity');
+	// alert(title);
+
+	//setTimeout(printShopping, 3000);
+	
+
 }
+
+// function printShopping(){
+// 	document.getElementById('item').innerHTML = title;
+// 	document.getElementById("price").innerHTML = price;
+// }

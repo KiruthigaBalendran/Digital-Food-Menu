@@ -154,7 +154,7 @@
                             
                             <p>A dish of cooked basmati rice that has been stir fried and mixed with hot fried chicken,eggs,vegetables and topped with green leaves</p>
                             
-                            <a class="btn-lg discoverAll" href="#">Order now</a>
+                            <a class="btn-lg discoverAll" href="pages/food.html?title=Chicken Fried Rice&price=Rs.150&image=../img/dish/friedRice.jpg&description=A dish of cooked basmati rice that has been stir fried&carb=400g &cal=300&pro=200g &ing1=Chicken &ing2=Rice&ing3=Eggs">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
@@ -174,7 +174,7 @@
                             
                             <p>A dish of chicken pieces battered and pan-fried with crisp coating of breading crumbs</p>
                             
-                            <a class="discoverAll btn-lg" href="#">Order now</a>
+                            <a class="discoverAll btn-lg" href="pages/food.html?title=Hot Fried Chicken&price=Rs.100&image=../img/dish/dish2.jpg&description=A dish of chicken pieces battered and pan-fried with crisp coating&carb=200g &cal=700&pro=500g &ing1=Chicken &ing2=bread crumbs&ing3=Eggs">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
@@ -195,7 +195,7 @@
                             
                             <p>A traditional Nepali dish with devilled chicken blended in a special sauce</p>
                             
-                            <a class="discoverAll btn-lg" href="#">Order now</a>
+                            <a class="discoverAll btn-lg" href="pages/food.html?title=Thai Chicken Momo&price=Rs.500&image=../img/dish/dish4.jpg&description=A traditional Nepali dish with devilled chicken blended in a special sauce&carb=300g &cal=500&pro=400g &ing1=Chicken &ing2=Soya sauce&ing3=Eggs">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
@@ -215,7 +215,7 @@
                             
                             <p>A baked flatbread topped with cheese and sausage and garnished with vegetables </p>
                             
-                            <a class="discoverAll btn-lg" href="#">Order now</a>
+                            <a class="discoverAll btn-lg" href="pages/food.html?title=Cheese and Sausage Pizza&price=Rs.450&image=../img/dish/pizza.jpeg&description=A baked flatbread topped with cheese and sausage&carb=400g &cal=400&pro=600g &ing1=Sausage &ing2=Cheese&ing3=Bread">Order now</a>
                             <div class="clearfix"></div>
                         </div>
                         <!--price tag-->
