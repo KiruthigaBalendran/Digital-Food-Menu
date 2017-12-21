@@ -1,0 +1,50 @@
+﻿#reviewcontainer {
+    padding-top: 45px;
+    max-width:100%;
+    margin-top: 40px
+}
+
+#div1 {
+	color: black
+}
+
+#sort {
+	float: left
+}
+
+#addbtn {
+	float: right
+}
+
+#row1h3 {
+	float: left;
+}
+
+.star-rating {
+	color: yellow;
+	line-height: 32px;
+	font-size: 1.25em
+}
+
+.star-rating .fa-star {
+	color: yellow;
+}
+
+
+#row1p1 {
+	font-size: large;
+}
+
+#imag1 {
+	width: 55%;
+	float: left;
+	padding-top: 10px
+}
+
+#imag2 {
+	width: 55%;
+	float: left;
+	padding-top: 20px
+}
+
+	
