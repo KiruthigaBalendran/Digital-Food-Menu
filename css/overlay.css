@@ -1,0 +1,82 @@
+﻿#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+}
+
+#text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 20px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+#one {
+    float: left;
+    margin-top: -90px;
+    margin-left: -170px
+}
+
+#two {
+    float: right;
+    margin-top: -105px;
+    margin-right: -260px;
+}
+
+#four {
+    float: right;
+    margin-top: 45px;
+    margin-right: -260px;
+}
+
+#five {
+    float: left;
+    margin-top: 45px;
+    margin-left: -200px
+}
+
+#img1 {
+    float: left;
+    margin-top: -200px;
+    margin-left: -160px;
+    width: 20%
+}
+
+#img2 {
+    float: right;
+    margin-top: -200px;
+    margin-right: -215px;
+    width: 15%
+}
+
+#img3 {
+    float: left;
+    margin-top: -70px;
+    margin-left: -160px;
+    width: 20%
+}
+
+#img4 {
+    float: right;
+    margin-top: 70px;
+    margin-right: -215px;
+    width: 15%
+}
+
+#img5 {
+    float: left;
+    margin-top: 75px;
+    margin-left: -215px;
+    width: 15%
+}
