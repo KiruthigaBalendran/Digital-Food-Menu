@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/main.css">
 
     <!-- google font -->
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Quicksand:300,400,700'>
     
     <!-- js -->
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -45,14 +45,14 @@
 
             <ul class="nav navbar-nav navbar-header">
                 <li><div class="hidden-xs" id="logo"><a href="index.php">
-                <img src="img/16.png" alt="">
+                <img src="img/logo.png" alt="">
             </a></div></li>
                 <li><a href="pages/menu.php">Menu</a></li>
                 <li><a href="#special-offer">Special Offers</a></li>
                 <li><a href="#chefs">Our Chefs</a></li>                
                 <li><a href="#">Reviews</a></li>
                 <li><a href="#">How To</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="pages/contact.html">Contact</a></li>
                 <li><a href="#"><img class="shoppingCart" alt="User" src="img/cart1.png"></a></li>
                 
                 <!--fix for scroll spy active menu element-->
@@ -123,11 +123,6 @@
                 <div class="col-md-6 banner-btm-g2">
                     <h3 class="title-main">welcome to Foodicious </h3>
                     <h4 class="sub-title">Feel the flavour, feel the aroma, feel the taste in every bite.</h4>
-                    <!-- <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vitae nunc auctor, malesuada est eu, pellentesque nisi.
-                        Nam in enim lacinia, hendrerit neque non, placerat quam.Mauris eu tortor congue purus congue iaculis sit amet tincidunt
-                        neque. Aliquam suscipit nisi erat, non ultricies ex aliquet a.
-
-                    </p> -->
                     <div class="find-about">
 
                         <a href="#" class="btn-lg discoverAll">Discover all</a>
@@ -303,24 +298,6 @@
                         <a href="#" class="fa fa-linkedin-square tooltipped" title=""></a>
                     </div>
                 </div>
-                <!-- <div class="section">
-                    <div class="w3_agileits-subscribe timings text-center">
-                        <div class="time">
-                            <div>
-                                <h5><i class="fa fa-map-marker" aria-hidden="true"></i>  </h5>
-                                <p>No 5, Queens Road, Colombo-03</p>
-                            </div>
-                            <div>
-                                <h5><i class="fa fa-phone" aria-hidden="true"></i>  </h5>
-                                <p>011-5448956</p>
-                            </div>
-                            <div>
-                                <h5><i class="fa fa-envelope" aria-hidden="true"></i>  </h5>
-                                <p>info@foodicious.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </div>
         <!-- /.container -->
